@@ -1,0 +1,25 @@
+// This is the solution Homework17  from C++ Course 3 Problem #17 , Lesson #20. 
+// Date: 09/10/2025, Time: 9:19
+
+#include <iostream>
+
+using namespace std;
+
+int main () {
+    float base_a;
+    float height_h;
+
+    cout << "Enter base : \n";
+    cin >> base_a;
+
+    cout << "Enter height: \n";
+    cin >> height_h;
+
+    float area;
+    area = (base_a / 2) * height_h;
+    cout << endl;
+    cout << "area = " << area;
+
+    return 0;
+
+}

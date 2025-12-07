@@ -1,0 +1,27 @@
+// This is the solution Homework40  from C++ Course 3 Problem #40 , Lesson #20. 
+// Date: 09/10/2025, Time: 11:00
+
+#include <iostream>
+
+using namespace std;
+
+int main () {
+    float Billvalue;
+
+    cout << "Enter Bill Value: \n";
+    cin >> Billvalue;
+
+    cout << endl;                    
+
+    float Totalbill_first;
+    const float percentage10 = 0.10;
+    const float percentage16 = 0.16;
+
+    Totalbill_first = Billvalue + Billvalue * percentage10;
+    float Totalbill_after;
+    Totalbill_after = (Totalbill_first * percentage16) + Totalbill_first;
+    cout << Totalbill_after;
+    
+
+    return 0;
+}

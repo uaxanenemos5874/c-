@@ -1,0 +1,24 @@
+// This is the solution Homework16  from C++ Course 3 Problem #16 , Lesson #26. 
+// Date: 18/10/2025, Time: 7:13
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+int main () {
+    float a, d;
+
+    cout << "Enter a: " << endl;
+    cin >> a;
+    cout << "Enter d: " << endl;
+    cin >> d;
+
+    float area;
+    area = a * sqrt(pow(d, 2) - pow(a, 2));
+
+    cout << area << endl;
+
+    return 0;
+
+
+}

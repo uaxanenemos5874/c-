@@ -1,0 +1,19 @@
+// This is the solution Homework31 from C++ Course 3 Problem #31 , Lesson #26. 
+// Date: 18/10/2025, Time: 9:04
+
+#include <iostream>
+#include <cmath>
+
+using namespace std;
+
+int main () {
+    short number;
+
+    cout << "Enter number: ";
+    cin >> number;
+
+    cout << "Number^2 = " << round(pow(number, 2)) << endl << "Number^3 = " << round(pow(number, 3)) << endl << "Number^4 = " << round(pow(number, 4)) << endl;
+
+    return 0;
+
+}
